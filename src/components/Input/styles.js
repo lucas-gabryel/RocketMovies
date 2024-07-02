@@ -9,6 +9,7 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.PARAGRAPH};
 
     border-radius: 10px;
+    margin-bottom: 8px;
     
     
     > input {
