@@ -4,6 +4,7 @@ export default {
         BACKGROUND_SECONDARY: "#262529",
 
         PARAGRAPH: "#948F99",
+        PARAGRAPH_TWO: "#999591",
         
         PINK: "#FF859B",
         WHITE: "#FFFFFF",
