@@ -14,9 +14,17 @@ export const Container = styled.button`
     font-weight: 500;
     
     margin-top: 16px;
-    background-color: ${({ theme }) => theme.COLORS.PINK};
+    /* background-color: ${(props) => props.color || props.theme.COLORS.PINK}; */
 
     &:disabled {
         opacity: .5px;
     }
+
+    ${(props) => props.secondary ? `
+    background-color: #0D0C0F;
+    color: ${props.theme.COLORS.PINK};
+    ` : `
+    background-color: ${props.theme.COLORS.PINK};
+    color: #312E38;
+    `};
 `;
