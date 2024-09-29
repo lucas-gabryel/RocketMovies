@@ -1,5 +1,7 @@
 import { FiArrowLeft, FiCamera, FiLock, FiMail, FiUser } from "react-icons/fi";
 
+import { Link } from "react-router-dom";
+
 import { Container, Form, Avatar } from "./styles";
 import { ButtonText } from "../../components/ButtonText";
 import { Input } from "../../components/Input";
@@ -9,7 +11,7 @@ export function Profile(){
     return(
         <Container>
             <header>
-                <ButtonText title="voltar" icon={FiArrowLeft}/>
+                <Link to="/"><ButtonText title="voltar" icon={FiArrowLeft}/></Link>
             </header>
 
             <Form>

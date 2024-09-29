@@ -10,8 +10,8 @@ export function AppRoutes(){
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/profile" element={<Profile />} />
-            <Route path="/createMovie" element={<CreateMovie />} />
-            <Route path="/moviePreview/:id" element={<MoviePreview />} />
+            <Route path="/createmovie" element={<CreateMovie />} />
+            <Route path="/moviepreview/:id" element={<MoviePreview />} />
         </Routes>
     )
 }

@@ -5,6 +5,7 @@ export const Container = styled.button`
     height: 56px;
 
     display: flex;
+    gap: 8px;
     align-items: center;
     justify-content: center;
     
@@ -14,6 +15,7 @@ export const Container = styled.button`
     font-weight: 500;
     
     margin-top: 16px;
+    padding: 32px;
     /* background-color: ${(props) => props.color || props.theme.COLORS.PINK}; */
 
     &:disabled {

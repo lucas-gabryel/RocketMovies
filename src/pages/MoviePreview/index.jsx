@@ -1,5 +1,7 @@
 import { Container, Main, Title, Data, Tags } from "./styles";
 
+import { Link } from "react-router-dom";
+
 import { Header } from "../../components/Header"
 
 import { IoIosStar, IoIosStarHalf, IoIosStarOutline } from "react-icons/io";
@@ -13,7 +15,7 @@ export function MoviePreview(){
         <Container>
             <Header />
             <Main>
-                <ButtonText title="voltar" icon={FiArrowLeft}/>
+                <Link to="/"><ButtonText title="voltar" icon={FiArrowLeft}/></Link>
                 <Title>
                     <h3>Interestellar</h3>
                     <div>
@@ -33,7 +35,7 @@ export function MoviePreview(){
 
                     <div>
                         <CiClock2 />
-                        <span>23/05/22 às 08:00</span>
+                        <span>23/09/24 às 08:00</span>
                     </div>
                 </Data>
 

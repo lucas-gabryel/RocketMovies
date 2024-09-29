@@ -1,5 +1,7 @@
 import { Container, Main, Form, Send } from "./styles"
 
+import { Link } from "react-router-dom"
+
 import { FiArrowLeft } from "react-icons/fi"
 import { Header } from "../../components/Header"
 import { ButtonText } from "../../components/ButtonText"
@@ -14,7 +16,7 @@ export function CreateMovie(){
         <Container>
             <Header />
             <Main>
-                <ButtonText title="voltar" icon={FiArrowLeft}/>
+                <Link to="/"><ButtonText title="voltar" icon={FiArrowLeft}/></Link>
                 <h2>Novo filme</h2>
                 <Form>
                     <div>

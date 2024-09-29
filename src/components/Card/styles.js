@@ -10,6 +10,7 @@ background-color: #312E38;
 >h4 {
     font-size: 24px;
     font-weight: 700;
+    color: #F4EDE8               ;
 }
 
 >p {
